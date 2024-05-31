@@ -1,0 +1,827 @@
+ /* font */ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family:"Rubik", sans-serif;  
+    color: white;
+}     
+
+/* .container{ 
+    background-color: #000000;   
+    
+}  */
+
+.main-container{ 
+    background-color: #000000;  
+    
+}
+
+
+.banner-section {  
+    background-color: #1E1E1E;
+    margin-top: 100px;  
+    margin: 0px 50px; 
+    padding: 60px 200px;
+}
+
+
+/* .banner-section{  
+    
+    background-color: #1E1E1E; 
+    height: 100%; 
+    background-repeat: no-repeat; 
+    margin-top: 70px;  
+    margin: 0px 50px; 
+    padding: 30px 200px;
+}   */
+ 
+
+ 
+
+/* nav section */
+
+.nav-section{ 
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center;
+    width: 1040px; 
+    height: 66px;
+}  
+
+.logo{ 
+    color: #FD6F00;
+    ; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; 
+    font-size: 32px;
+}
+
+
+.left-div{ 
+    display: flex; 
+    gap: 40px; 
+    align-items: center;
+} 
+.left-div a {  
+    text-decoration: none ; 
+    color: white; 
+    font-size: 21px;  
+    font-weight: 400px; 
+    
+
+} 
+
+.download-cv-but{  
+    
+    width: 188px;
+    height: 52px;  
+    background-color: #FD6F00;  
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    /* padding: 12px; */
+
+
+} 
+ 
+
+/* profile section */
+ 
+.profile-section{ 
+     display: flex;                
+     justify-content: space-between; 
+     padding-top: 50px;  
+     gap: 20px;
+     
+} 
+.profile-desc{ 
+    width: 50%;
+}
+.profile-left{ 
+    padding-top: 100px;
+
+}  
+
+/* .profile-left h1{ 
+     display: flex;  
+     flex-direction: column;
+     justify-content: center;
+} */
+
+.intro{  
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 800;
+line-height: 47.4px;
+letter-spacing: -0.015em;
+text-align: left; 
+text-transform: uppercase;
+} 
+.star-one{ 
+   
+    rotate: 3.97deg; 
+    margin-left: 15px; 
+    margin-right: 15px;
+
+}
+.intro-desc{ 
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+/* text-align: justified; */
+color: #FFFFFF80; 
+padding: 30px 0px;
+} 
+
+.design{ 
+    text-transform: uppercase; 
+    font-family: Rubik;
+font-size: 24px;
+font-weight: 300;
+line-height: 28.44px;
+letter-spacing: -0.015em;
+text-align: left; 
+align-items: center;
+
+} 
+
+.design-div{ 
+    display: flex; 
+    align-items: center;
+}
+.design-div p{ 
+    align-items: center;
+}  
+
+.star-three{ 
+    padding: 0px 10px;
+}
+
+
+.hire-but{ 
+   width: 390px;
+padding: 10px ;
+/* gap: 10px; */
+border-radius: 50px;
+border: 2px solid white;
+opacity: 0px; 
+background-color: #ffffff1f; 
+display: flex; 
+align-items: center;
+gap: 25px; 
+margin: 30px 0px;
+}
+   
+.hire-me{
+    font-family: Rubik;
+font-size: 25.69px;
+font-weight: 400;
+line-height: 30.44px;
+letter-spacing: -0.015em;
+text-align:right;
+
+}
+.portfolio-but{  
+width: 230px;
+padding: 10px 20px 10px 20px;
+gap: 0px;
+border-radius: 60px;
+opacity: 0px; 
+background-color: #FD6F00; 
+
+
+}
+
+.portfolio-my{ 
+    font-family: Rubik;
+    font-size: 25.69px;
+    font-weight: 400;
+    line-height: 30.44px;
+    letter-spacing: -0.015em;
+    text-align:right; 
+    
+} 
+.check-icon{ 
+    width: 25px; 
+    height: 25px;
+}
+    
+
+
+#icons{ 
+    margin: 15px 0px;
+} 
+
+#icons a { 
+    text-decoration: none; 
+    padding-right: 15px;
+}
+.profile-img{ 
+    width: 45%; 
+    height: auto;
+    padding-left: 0px;
+} 
+
+.rotted-banner{  
+
+    background-color: black; 
+    width: 1510.83px; 
+    height: 147px; 
+    font-size: 32px; 
+    line-height: 37.92px;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    rotate: -3.97deg; 
+    margin-left:0px 0px; 
+    padding: 0px 0px;
+
+} 
+
+
+/* about me */ 
+ 
+.about-section{    
+    background-color: #1E1E1E;
+    margin: 0px 50px; 
+    padding: 50px 200px;
+    display: flex;  
+    justify-content: space-between;
+    
+}
+
+ 
+
+.about-me-title{ 
+    font-size: 40px; 
+    font-weight: 800px; 
+    text-transform: uppercase;
+} 
+.about-me-desc{ 
+    margin-top: 20px; 
+    font-size: 18px; 
+    font-weight: 400px; 
+     color:#FFFFFF80; 
+     margin-bottom: 50px;
+} 
+
+.ratings{  
+    display: flex; 
+    flex-direction: column;
+    align-items:end; 
+    
+}  
+.star-two{ 
+    padding-bottom: 25px;
+}
+
+ /* experience */ 
+
+ .experience-container{  
+    margin: 0px 50px; 
+    padding: 170px 200px;
+    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+
+   display: flex; 
+   justify-content: space-between;
+   gap: 100px;
+    
+ }  
+
+ .left-ex{ 
+    padding: 25px 0px;
+ }
+
+ .ex-title{ 
+    font-family: Rubik;
+font-size: 18px;
+font-style: italic;
+font-weight: 600;
+line-height: 24px;
+text-align: left; 
+padding: 15px 0px;
+
+ } 
+
+ .myex-title{ 
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+padding: 20px 0px;
+ } 
+
+ .ex-desc{ 
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+
+ }  
+
+ /* .right-ex{ 
+    gap: 30px;
+ } */
+.experience-name{ 
+    font-family: Rubik;
+                                        font-size: 32px;
+                                        font-weight: 700;
+                                        line-height: 48px;
+                                        text-align: left; 
+                                        border-bottom: 1px solid #FFFFFF ; 
+                                        text-transform: uppercase; 
+                                        padding: 20px 0px;
+                                        
+}
+ 
+
+ /* award */ 
+   
+.award-container{ 
+     
+    background-color:#1E1E1E ; 
+    margin: 0px 50px; 
+    padding: 0px 200px;  
+    padding-bottom: 150px;
+    
+}
+
+ .award-first{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: center;
+    padding: 50px;  
+    background-color:#1E1E1E ; 
+   
+ }  
+  
+ #award{  
+
+    text-transform: uppercase;
+   
+font-size: 40px;
+font-weight: 800;
+line-height: 47.4px;
+letter-spacing: -0.015em;
+margin-top: 150px 
+
+
+ } 
+
+ .award-desc{  
+    margin-top: 20px;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+color: #FFFFFF80;
+text-align: center;
+ }  
+ 
+
+ .pera-section{ 
+    margin-top: 30px;
+ }
+ .award-sec{ 
+
+    background-color: black; 
+    padding: 40px 40px;
+ } 
+ 
+ 
+
+ .award-first-section{ 
+    display: flex;  
+    justify-content: space-between;
+
+ } 
+
+ .sec-title{ 
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    
+ } 
+
+ .sec-time{ 
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    
+
+ } 
+
+ .pera{ 
+    margin-top: 30px; 
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left; 
+color: #FFFFFF80;
+
+
+ } 
+
+ .award-sec-two{ 
+    margin-top: 30px; 
+    background-color: black; 
+    padding: 40px 40px;
+ } 
+
+
+ /* my portfolio */ 
+
+ .portfolio-container{ 
+    background-color:#1E1E1E ; 
+    margin: 0px 50px; 
+    padding: 0px 200px;  
+    padding-bottom: 100px;
+ }  
+
+
+ .my-port{  
+    
+font-size: 40px;
+font-weight: 800;
+line-height: 47.4px;
+letter-spacing: -0.015em;
+text-align: center;  
+text-transform: uppercase;
+margin-bottom: 30px;
+
+
+ } 
+
+ .port-desc{  
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #FFFFFF80;
+
+
+ } 
+
+ .port-buts{ 
+    display: flex; 
+    gap: 10px; 
+    justify-content: center; 
+   margin-top: 50px;
+ } 
+  
+ .but{
+    
+    background-color: #000000; 
+    border: 0.4px solid #545454 ;
+    padding: 10px 20px;  
+
+    styleName: 24 R;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+
+    
+
+ }  
+ 
+ .but-ui a{ 
+    text-decoration: none; 
+
+ } 
+
+ .but-web{ 
+    background-color: #FD6F00;
+ }
+
+ .but-web a{ 
+    text-decoration: none;
+ }  
+ .but-app a{ 
+    text-decoration: none;
+ }
+   
+ .but-graph a{  
+    text-decoration: none;
+ } 
+
+
+
+ .research-container{  
+    display: flex; 
+    margin: 50px 0px; 
+    gap: 40px;
+
+ }  
+
+ .lorem-pera{ 
+    padding: 30px 0px;
+ }
+ .research-title{ 
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+ } 
+
+ .bally-title{ 
+  margin: 20px 0px; 
+  font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+ } 
+  
+ .lorem{  
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+letter-spacing: 0.03em;
+text-align: left;
+color:#FFFFFF80;
+
+ } 
+
+ /* contact */  
+
+.contact-container{  
+    background-color:#1E1E1E ; 
+    margin: 0px 50px; 
+    padding: 0px 200px;  
+    padding-bottom: 100px;
+  
+}
+
+ .contact-title{ 
+    font-family: Rubik;
+font-size: 18px;
+font-style: italic;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+
+ }  
+
+ .contact-desc{ 
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+text-align: center; 
+text-transform: uppercase; 
+margin-top: 15px;
+
+ }
+ 
+ .contact-form{ 
+    background: #FD6F001A; 
+    margin: 50px 0px; 
+    padding: 50px 100px;
+ } 
+  
+ .form-title{ 
+    font-family: Rubik;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+/* margin: 50px 0px; 
+padding: 50px 100px; */
+ }  
+
+ .first-form{ 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 30px;
+ }  
+ .form-font{ 
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+ }
+
+ .form-name{ 
+    border-bottom: 1.5px solid #FFFFFF;   
+    
+   
+    width: Fixed (375.74px)px;
+height: Hug (34px)px;
+top: 306px;
+left: 114.06px;
+gap: 10px;
+opacity: 0px;
+
+ }  
+
+.border{ 
+    border-bottom: 1.5px solid #FFFFFF; 
+}
+
+ .form-email{ 
+    border-bottom: 1.5px solid #FFFFFF;
+ } 
+
+
+ /* FORM */ 
+ /* .card-form {
+    padding: 2rem 1rem 0; 
+   
+  }  */
+
+  .display{ 
+    display: flex; 
+    /* justify-content: space-between;  */
+    gap: 60px;
+    align-items: center;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 50px; 
+    width: 100%;
+    
+  }
+  
+  .input-field {
+    border: 0;
+    border-bottom: 2px solid #ffffff;  
+    background-color: transparent; 
+
+    
+  } 
+  .message{ 
+    margin-top: 10px;
+  }  
+
+  /* end main form */
+
+  .form-file{ 
+    display: flex; 
+    align-items: center; 
+    margin-top: 10px; 
+    color: #FFFFFF;
+  } 
+
+  .attach-file{ 
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+  } 
+
+  .submit-but{  
+    background-color: #FD6F00;
+    width: 183px;
+height: 56px;
+top: 560px;
+left: 114.06px;
+gap: 0px;
+opacity: 0px; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+margin-top: 50px;
+
+  } 
+
+  .submit-text{ 
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 500; 
+
+
+  } 
+
+
+
+  /* foooooter section */ 
+ 
+  #footer-logo{ 
+    display: flex; 
+    justify-content: center; 
+    padding-top:100px;
+  }
+  .footer-logo{ 
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0.03em;
+    text-align: left; 
+    color: #FD6F00; 
+
+
+    
+  } 
+ 
+.footer-info{ 
+    display: flex; 
+    /* justify-content: space-between;  */  
+    justify-content: center; 
+    gap: 30px;
+    align-items: center; 
+    padding-top: 30px;
+}
+
+  .footer-info a{  
+    text-decoration: none;  
+    
+
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+
+  } 
+
+  #footer-icons{ 
+    display: flex;    
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    padding-top: 80px; 
+    padding-bottom: 60px;
+
+  }  
+
+  #footer-icons a{  
+    width: 32.48px;
+height: 32.28px;
+/* gap: 30px; */
+opacity: 0px;
+
+  } 
+
+  .copyright{ 
+    background-color:#121212;   
+    margin: 0px 50px; 
+    padding: 30px 200px; 
+     
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: center; 
+    /* display: flex;  */
+    /* justify-content: center; 
+    align-items: center; */
+
+
+  } 
+
+  .span-name{ 
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 31.5px;
+    letter-spacing: 0.03em;
+    text-align: left; 
+    color: #FD6F00;
+   
+
+  }
+
+
+  
+  
+  
+
+ 
+
+ 
+
+
